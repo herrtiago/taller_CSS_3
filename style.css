@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px;
+}
+
+h3 {
+  color: rgb(95, 92, 92);
+}
+
+table {
+  width: 80%;
+  height: 30%;
+  margin-top: 70px;
+  border-collapse: collapse;
+  text-align: center;
+  border: black solid 1px;
+  border-bottom: none;
+  border-right: none;
+}
+
+th {
+  background-color: rgb(39, 169, 171);
+  border: 1px solid black;
+}
+
+td {
+  border: 0.5px dashed black;
+}
+table:hover {
+  cursor: crosshair;
+}
+
+tr:hover {
+  background-color: rgb(79, 215, 25);
+}
